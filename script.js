@@ -15,6 +15,12 @@ class Pizza {
     }
 }
 
+class Order {
+    constructor(pizzas) {
+        this.pizzas = [{}]
+    }
+}
+
 
 const cheesePizza = new Pizza(['sausage', 'pepperoni']);
 console.log(cheesePizza);
